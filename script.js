@@ -9,8 +9,8 @@ buttonClick.addEventListener('click', () => {
     if (inputValue.value === 'google') {
         setTimeout(() => alert('Yandex круче. Но это не точно'), 3000);
     } else {
-        setTimeout(() => alert(inputValue.value), 3000);
-        setTimeout(() => alert(arrUser[0].name), 3000);
+        alert(inputValue.value);
+        alert(arrUser[0].name);
     }
 
 })
